@@ -24,8 +24,7 @@ header {
     width: 960px;
     height: 100px;
     margin: 0 auto;
-    padding: 1px;
-    /* z-index: 99; */
+    padding: 1px
 }
 
 h1 {
@@ -33,8 +32,7 @@ h1 {
     color: #ffffff;
     float: left;
     padding: 30px 30px 35px 30px;
-    margin: -1px 0px 0px 0px;
-    /* z-index: 99; */
+    margin: -1px 0px 0px 0px
 }
 
 nav{
@@ -44,8 +42,7 @@ nav{
     word-spacing: 14px;
     color: #777777;
     padding: 50px 20px 35px 0px;
-    margin: -10px -15px 0px 0px;
-    /* z-index: 99; */
+    margin: -10px -15px 0px 0px
 } 
 
 /* ///// Specifies styling of nav links in various states of activity ///// */
@@ -269,7 +266,33 @@ button:active #samplePseudo {
 /* ///// Responsive media queries ///// */
 
 @media only screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
 
+    .centerHeader {
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        padding: 1px;
+    }
+
+    h1 {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    
+    /* nav{
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        float: right;
+        text-align: right;
+        word-spacing: 14px;
+        color: #777777;
+        padding: 50px 20px 35px 0px;
+        margin: -10px -15px 0px 0px;
+    } */
 }
 
 @media only screen and (max-width: 768px) {
