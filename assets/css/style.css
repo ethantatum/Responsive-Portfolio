@@ -291,6 +291,25 @@ button:active #samplePseudo {
         text-align: center;
         padding: 20px 0px;
     }
+
+    section {
+        margin: 10px auto;
+    }
+
+    .aboutMe {
+        width: 95%;
+    }
+    
+    .content {
+        padding-right: 15px;
+    }
+    
+    .aboutPic {
+        clear: left;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-top: 0px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
