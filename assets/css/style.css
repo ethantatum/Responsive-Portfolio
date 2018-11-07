@@ -284,15 +284,13 @@ button:active #samplePseudo {
         text-align: center;
     }
     
-    /* nav{
-        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-        float: right;
-        text-align: right;
-        word-spacing: 14px;
-        color: #777777;
-        padding: 50px 20px 35px 0px;
-        margin: -10px -15px 0px 0px;
-    } */
+    nav {
+        clear: right;
+        width: 100%;
+        margin: 0%;
+        text-align: center;
+        padding: 20px 0px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
