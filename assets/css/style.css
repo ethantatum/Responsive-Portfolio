@@ -1,0 +1,267 @@
+/* ///// Universal CSS ///// */
+body {
+    background-image: url("../../dust_scratches.jpg");
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* ///// These 3 lines are necessary for a FlexBox sticky footer (always put in body) ///// */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: #ffffff;
+    font-family: Georgia, Times,'Times New Roman', serif;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+/* ///// Creates a container for centered header elements ///// */
+.centerHeader {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 1px;
+    /* z-index: 99; */
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 30px 30px 35px 30px;
+    margin: -1px 0px 0px 0px;
+    /* z-index: 99; */
+}
+
+nav{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
+    text-align: right;
+    word-spacing: 14px;
+    color: #777777;
+    padding: 50px 20px 35px 0px;
+    margin: -10px -15px 0px 0px;
+    /* z-index: 99; */
+} 
+
+/* ///// Specifies styling of nav links in various states of activity ///// */
+a:link {
+    color: #777777; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-decoration: underline;
+}
+
+/* ///// Covers entire width of main content area ///// */
+section {
+    clear: both;
+    padding: 10px 0px 60px 0px;
+    margin: 120px auto;
+    /* Next line completes FlexBox sticky footer (should go in main content area) */
+    flex: 1;
+    /* z-index: 99999; */
+}
+
+/* ///// Creates centered container for main content ///// */
+.aboutMe {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* ///// Creates centered container for left justification ///// */
+.centerAbout {
+    padding: 0px 30px 0px 30px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 34px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 2px solid #dddddd;
+}
+
+footer {
+    background-color: #666666;
+    color: #cccccc;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-top: 7px solid #4aaaa5;
+    padding: 35px 0px 5px 0px;
+}
+
+/* ///// Index.html and Contact.html specific CSS */
+.content {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2.2;
+    word-spacing: 1.8px;
+    padding: 0px 25px 10px 0px;
+}
+
+/* ///// Index.html specific CSS ///// */
+.aboutPic {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+/* ////////// Contact.html specific CSS ////////// */
+input {
+   width: 900px; 
+}
+
+#name, #email {
+    opacity: 0.55;
+    padding: 5px;
+}
+
+#message {
+    opacity: 0.85;
+    padding: 5px;
+    width: 900px;
+    height: 150px;
+    margin-bottom: 15px;
+    resize: vertical;
+    overflow: hidden;
+}
+
+#submit {
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    width: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button {
+    border: 0;
+    padding: 0px;
+}
+
+#samplePseudo {
+    display: none;
+}
+
+/* ///// Creates specific styling for submit button when someone hovers over it ///// */
+#submit:hover {
+        background-color: #777777;
+        color: #ffffff;
+}
+
+button:active #samplePseudo {
+    display: block;
+    position: absolute;
+    bottom: 90;
+    left: 420;
+    z-index: 999;
+    width: 120px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 30px 10px 30px;
+}
+
+/* ////////// Portfolio.html specific CSS ////////// */
+.portfolio {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    width: 960px;
+    float: left;
+}
+
+.contentImages {
+    float: left;
+    font-family: Georgia, Times,'Times New Roman', serif;
+    padding: 0px 25px 10px 0px;
+}
+
+.firstCol {
+    float: left;
+    margin-right: 15px;
+}
+
+.secondCol {
+    float: left;
+    margin-left: 15px;
+}
+
+/* ///// Creates container for image and text so correct hover outline can be applied ///// */
+.picBox {
+    width: 250px;
+    height: 150px;
+    margin: 0px 0px 30px 0px;
+}
+
+.picPort {
+    width: 250px;
+    height: 150px; 
+}
+
+/* ///// Creates outline when user hovers over image ///// */
+.picBox:hover {
+    outline: 4px solid #777777;
+    outline-offset: 4px;
+}
+
+.picText {
+    width: 250px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px 0px;
+    position: relative;
+    bottom: 60;
+    z-index: 1;
+}
+
+.contentImages a:link {
+    color: #ffffff; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.contentImages a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contentImages a:hover {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contentImages a:active {
+    color: #777777;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    opacity: 0.75;
+}
