@@ -265,3 +265,17 @@ button:active #samplePseudo {
     text-decoration: none;
     opacity: 0.75;
 }
+
+/* ///// Responsive media queries ///// */
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 980px) {
+    
+}
