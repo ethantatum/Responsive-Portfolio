@@ -299,11 +299,18 @@ button:active #samplePseudo {
     .aboutMe {
         width: 95%;
     }
+
+    /* ///// Not reacting the same as .aboutMe for some reason... ///// */
+    .portfolio {
+        clear: both;
+        width: 95%;
+        margin: 0 auto;
+    }
     
     .content {
         padding-right: 15px;
     }
-    
+
     .aboutPic {
         clear: left;
         width: 100%;
