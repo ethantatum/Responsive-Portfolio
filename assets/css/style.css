@@ -373,6 +373,20 @@ button:active #samplePseudo {
         padding-top: 0px;
     }
 
+    section {
+        width: 100%;
+        /* margin: 10px auto;
+        padding: 0;
+        clear: both; */
+    }
+
+    .portfolio {
+        clear: both;
+        margin: 0 auto;
+        width: 95%;
+        margin-left: 15px;
+    }
+
 }
 
 @media only screen and (max-width: 980px) {
