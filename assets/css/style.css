@@ -375,9 +375,6 @@ button:active #samplePseudo {
 
     section {
         width: 100%;
-        /* margin: 10px auto;
-        padding: 0;
-        clear: both; */
     }
 
     .portfolio {
@@ -385,6 +382,26 @@ button:active #samplePseudo {
         margin: 0 auto;
         width: 95%;
         margin-left: 15px;
+    }
+
+    .contentImages {
+        clear: left;
+        margin: 0 auto;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .picBox {
+        width: 295px;
+        height: 195px;
+    }
+
+    .picPort {
+        width: 295px;
+        height: 195px; 
+    }
+    
+    .picText {
+        width: 295px;
     }
 
 }
