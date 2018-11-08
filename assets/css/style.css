@@ -424,5 +424,23 @@ button:active #samplePseudo {
 }
 
 @media only screen and (max-width: 980px) {
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
     
+    .centerHeader {
+        width: 90%;
+        margin: 0 px, 0px 0px 10px;
+    }
+
+    .aboutMe {
+        width: 60%;
+        margin-left: 45px;
+    }
+
+    .aboutPic {
+        width: 35%;
+    }
 }
+   
