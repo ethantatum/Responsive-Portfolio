@@ -352,7 +352,7 @@ button:active #samplePseudo {
         width: 100%; 
      }
 
-    textarea {
+    #message {
         width: 100%;
     }
 }
