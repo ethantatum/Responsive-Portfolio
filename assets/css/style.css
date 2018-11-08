@@ -377,6 +377,10 @@ button:active #samplePseudo {
         width: 100%;
     }
 
+    .content {
+        padding-right: 0px;
+    }
+
     .portfolio {
         clear: both;
         margin: 0 auto;
@@ -384,6 +388,11 @@ button:active #samplePseudo {
         margin-left: 15px;
     }
 
+    .centerAbout {
+        padding: 0px 50px 0px 30px;
+    }
+
+    /* ///// Not sure why right column of images isn't aligning exactly with right side ///// */
     .contentImages {
         clear: left;
         margin: 0 auto;
@@ -402,6 +411,14 @@ button:active #samplePseudo {
     
     .picText {
         width: 295px;
+    }
+
+    input {
+        width: 100%; 
+     }
+
+    #message {
+        width: 100%;
     }
 
 }
