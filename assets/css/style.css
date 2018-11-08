@@ -294,17 +294,18 @@ button:active #samplePseudo {
 
     section {
         margin: 10px auto;
+        padding: 0;
+        clear: both;
     }
 
     .aboutMe {
         width: 95%;
     }
-
+    
     /* ///// Not reacting the same as .aboutMe for some reason... ///// */
     .portfolio {
-        clear: both;
         width: 95%;
-        margin: 0 auto;
+        margin-left: 10px;
     }
     
     .content {
@@ -316,6 +317,34 @@ button:active #samplePseudo {
         width: 100%;
         margin-bottom: 20px;
         padding-top: 0px;
+    }
+
+    .contentImages {
+        clear: left;
+        padding: 0px 25px 10px 0px;
+    }
+    
+    .firstCol {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .secondCol {
+        margin-left: 0;
+    }
+
+    .picBox {
+        width: 500px;
+        height: 400px;
+    }
+
+    .picPort {
+        width: 500px;
+        height: 400px; 
+    }
+    
+    .picText {
+        width: 500px;
     }
 }
 
